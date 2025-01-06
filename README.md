@@ -1,13 +1,19 @@
-## Introduction
+![image](https://github.com/chienthan2vn/Age-Gender-Prediction/blob/main/UTKFaceDemo.png)
 
-UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. This dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc. Some sample images are shown as following
+### __Project__ 
+- This is an project which uses __multi model__ architectured model on image data  as  __hybrid model__.The project uses the  [__UTKFace Dataset__](https://www.kaggle.com/datasets/jangedoo/utkface-new) to __predict the age and gender__ of any person from image.
+- The __goal__ is build a deep learning model that accurately __predicting the age and gender__ of any person from image..
+- The performance of the model is evaluated using several __metrics__ loss and accuracy metrics.
 
-## Highlights
+**Project Workflow**
 
-* consists of 20k+ face images in the wild (only single face in one image)
-* provides the correspondingly aligned and cropped faces
-* provides the corresponding landmarks (68 points)
-* images are labelled by age, gender, and ethnicity
+1. **Data Exploration:** We delve into the UTKFace dataset, understanding its nuances, and extracting vital information for our models.
+
+2. **Model Design:** Together, we design two CNN models - one from scratch and another by fine-tuning a pre-trained architecture.
+
+3. **Training and Optimization:** Our training process involves careful parameter tuning and optimization, ensuring our models capture intricate patterns and nuances.
+
+4. **Results and Analysis:** We present our findings, discussing the performance of both models, their strengths, and areas of improvement.
 
 * ## Datasets
 From the origin of the DATA  - from the University of Tennesse and Knoxville
